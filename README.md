@@ -35,6 +35,7 @@ http://127.0.0.1:8000/planets/{id}  <br>
   <li>Parse all fields, here i deal with `films` and `planets` relation and skipped some fields that may be added like others</li>
   <li>Use more efficient column types in DB. Now i use `string` in numerical columns with unhandled `undefined` values</li>
   <li>No views. Now just `echo` output from Controllers</li>
+  <li>Consider use custom artisan command to parse. Now i parse remote data with Seeder files: FilmTableSeeder.php and PlanetTableSeeder.php</li>
   <li>It is my first experience with laravel :) Need more than 1 day to achive better result((</li>
 </ul>
 
