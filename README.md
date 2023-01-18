@@ -1,4 +1,4 @@
-# Import data from swapi.dev with
+# Import data from swapi.dev
 Laravel - Load data from https://swapi.dev/ to DB.  Alex Nechaev <br>
 Used "guzzlehttp/guzzle" for GET requests to swapi.dev
 Used many-to-many relation between `films` and `planets` tables.
